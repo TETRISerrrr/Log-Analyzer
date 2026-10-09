@@ -51,19 +51,19 @@ python main.py --log sample_logs/auth.log --export-json exports/report.json
 ### Export results to CSV
 
 ```bash
-python main.py --log data/sample.log --export-csv exports/report.csv
+python main.py --log sample_logs/auth.log --export-csv exports/report.csv
 ```
 
 ### Generate graphs
 
 ```bash
-python main.py --log data/sample.log --graph
+python main.py --log sample_logs/auth.log --graph
 ```
 
 ### Clear the database
 
 ```bash
-python main.py --log data/sample.log --clear-db
+python main.py --log sample_logs/auth.log --clear-db
 ```
 
 
