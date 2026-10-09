@@ -27,25 +27,25 @@ Educational cybersecurity project for analyzing system and web logs.
 ### Analyze a log file
 
 ```bash
-python main.py --log data/sample.log
+python main.py --log sample_logs/auth.log
 ```
 
 ### Generate alerts
 
 ```bash
-python main.py --log data/sample.log --alerts
+python main.py --log sample_logs/auth.log --alerts
 ```
 
 ### Display statistics
 
 ```bash
-python main.py --log data/sample.log --stats
+python main.py --log sample_logs/auth.log --stats
 ```
 
 ### Export results to JSON
 
 ```bash
-python main.py --log data/sample.log --export-json exports/report.json
+python main.py --log sample_logs/auth.log --export-json exports/report.json
 ```
 
 ### Export results to CSV
